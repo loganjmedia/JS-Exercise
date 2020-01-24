@@ -1,7 +1,9 @@
-var num1 = prompt('Pick a # between 1 and 100:');   
-var num2 = 52;
+   
+var num2 = Math.ceil(Math.random() * 100);
+console.log(num2);
+var num1 = prompt('Pick a # between 1 and 100:');
 num1 = Number(num1);
- 
+
 while (num1 != num2) {
     if (num1 < num2) {
         num1 = prompt ('TOO LOW! Pick another number:');
